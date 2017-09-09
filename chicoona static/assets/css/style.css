@@ -1,0 +1,1054 @@
+/*GENERAL*/
+* {
+    margin:0;
+    padding: 0; 
+}
+
+body#follow {
+    background: url('../img/background_nextsites.png') top center no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; 
+    height: 2088px;
+    width: 100%; 
+    background-color: #ebebeb;
+    font-family: Verdana, Arial, sans-serif; 
+}
+}
+
+nav.navbar-default {
+     background: white; 
+}
+
+ nav, a.navbar-brand, nav ul li a {
+    height: 5em;
+}
+
+ nav a.navbar-brand {
+    padding: 0.8em; 
+}
+
+ nav a.navbar-brand img {
+    height: 68%; 
+}
+ nav ul.navbar-nav li {
+    display: inline-block; 
+}
+
+ nav.navbar-default .navbar-nav>li>a:link {
+    line-height: 30px; 
+    padding: 22px 20px 18px 20px;
+    font-family: "Teko", Verdana, sans-serif; 
+    color: #646464; 
+    font-size: 25px; 
+}
+
+ nav.navbar-default .navbar-nav>li>a:visited{
+    line-height: 30px; 
+    padding: 22px 20px 18px 20px;
+    font-family: "Teko", Verdana, sans-serif;  
+    font-size: 25px;
+    color:#646464;
+}
+ nav.navbar-default .navbar-nav>li>a:hover {
+    line-height: 30px; 
+    padding: 22px 20px 18px 20px;
+    font-family: "Teko", Verdana, sans-serif;  
+    font-size: 25px;
+    color:#ff9100;
+}
+
+ nav.navbar-default .navbar-nav>li>a:active {
+    line-height: 30px; 
+    padding: 22px 20px 18px 20px;
+    font-family: "Teko", Verdana, sans-serif;  
+    font-size: 25px; 
+    color: #bbc851;
+}
+
+ nav ul.navbar-nav >li.lang>a:link {
+    margin-top: 0.1em; 
+    font-size: 1.3em; 
+    color: #00a9ff;
+    padding-left: 0.5em;
+}
+
+nav ul.navbar-nav >li.lang>a:visited {
+    margin-top: 0.1em; 
+    font-size: 1.3em; 
+    color: #00a9ff;
+    padding-left: 0.5em;
+}
+
+ nav ul.navbar-nav >li.lang>a:hover {
+    margin-top: 0.1em; 
+    font-size: 1.3em; 
+    color: #ff9100;
+    padding-left: 0.5em;
+}
+
+nav ul.navbar-nav >li.lang>a:active{
+    margin-top: 0.1em; 
+    font-size: 1.3em; 
+    color: #bbc851;
+    padding-left: 0.5em;
+}
+
+ nav ul.navbar-nav >li.lang-actives {
+    text-decoration: underline; 
+}
+
+/*GLOBAL*/
+a,h1,h2,h3,h4,h5,h6 {
+    font-family: "Teko", Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;  
+}
+a {
+    font-family: Verdana, Arial, sans-serif; 
+    color: #00a9ff; 
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; 
+}
+
+main h2, h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+main p {
+    line-height: 1.65em;
+    font-size: 1.4em;
+    color: #4e4e4e;
+}
+
+label.firstlabel
+{
+    margin-top: 2.4em;
+}
+
+label {
+    margin: 0.6em 0 0.5em 0;
+    clear:both;
+}
+input, texteara{
+    margin-bottom: -0.5em;
+}
+
+input[type="email"]{
+    margin-bottom: 2.4em;
+}
+
+
+/*LAYOUT*/
+/*INDEX*/
+/*Hero*/
+section#hero{
+    background: url('../img/hero_chicoona_software3.png') top center no-repeat; 
+    -moz-background-size: cover
+    -webkit-background-size: cover; 
+    background-size: cover;
+    height: 923px;
+    width: 100%; 
+} 
+
+main{
+    background-position: fixed; 
+}
+main section#content-index {
+    background:white; 
+}
+
+main section#content-index .container {
+    margin: 0 auto; 
+    height: 32em;
+}
+
+main section#content-index div#first-triangel,
+main section#content-index div#second-triangel,
+main section#content-index div#third-triangel{ 
+    font-size: 1.2em;
+    width: 32%;
+    color: dimgray; 
+    padding: 0;
+}
+main section#content-index div#first-triangel{
+    margin-left: -2%; 
+}
+
+
+main section#content-index div#second-triangel {
+        margin-left: 3.5%;
+}
+
+main section#content-index div#third-triangel{
+        margin-left: 3.3%;
+        margin-right: -2%; 
+}
+
+
+main section#content-index h2 {
+    color: #3c3c3c;
+    margin-left: 0.25em;
+}
+
+
+
+main section#content-index p {
+    font-size: 1em;
+    line-height: 1.45em; 
+    margin-left: 0.6em; 
+    margin-right: 0.6em; 
+}
+
+
+main section#content-index a.btn img {
+    border: none;
+    margin-top:3em;
+    padding-bottom: -7em; 
+}
+
+main section#content-index a.btn.btn-margin {
+    margin-top: 5.0em; 
+}
+
+main section#content-index p.more {
+    margin-bottom: 3.4em; 
+}
+
+
+
+
+
+/*About */
+
+main section#about {
+    background: #ebebeb; 
+}
+
+main section#about h1 {
+    margin-top: 2.5em; 
+    color: #00a9ff;
+    font-weight: 400;
+    font-size: 40px; 
+}
+
+main section#about h1 span {
+    color: #ff9100;
+}
+
+main section#about p {
+    
+}
+main section#about a.btn-about {
+    margin: 4em -1.64em 7em 0 ;       
+}
+
+/***** SERVICES SITE ***/
+
+/*Content Services*/
+main section#content-services {
+    height: 2088px; 
+}
+
+
+main section#content-services h1,
+main section#content-services h2,
+main section#content-blog h1{
+    color: #ff9100;  
+}
+
+main section#content-services .margin-top,
+main section#content-blog .margin-top{
+    margin-top: 42%;
+}
+
+
+
+.panel{
+    margin-top: 1.35em;
+    border: none; 
+    background: none;
+}
+
+.panel-body {
+    padding: 0; 
+}
+
+
+.panel-body img {
+      width: 304px;
+}
+.panel-footer{
+    background: #002233;
+    border-radius: 0;
+    height: 28em;
+    width: 304px; 
+}
+
+.panel-footer h3 {
+    color: #00a9ff;
+}
+
+.panel-footer p {
+    font-size: 1.15em;
+    color: white;
+    line-height: 1.45em; 
+}
+
+/*Portfolio*/
+main section#portfolio {
+    background:#ebebeb;
+    height: 8em; 
+}
+
+/*******BLOG SITE *****/
+/* Content Blog**/
+
+main section#content-blog,
+main section#resources{
+    height: 2200px; 
+}
+
+main section#content-blog h3 ,
+main section#content-blog div.last-posts h3,
+main section#content-contact h3 {
+    font-size: 2.4em;
+    color: #00a9ff;
+    background: #002233;
+    padding: 0.25em 0.75em 0.1em 0.75em;
+    margin: 2em -1.5em 0 -0.5em;
+}
+
+main section#content-blog div.last-posts h3,
+main section#content-contact .col-md-4 h3 {
+    margin-left: 1em;
+    margin-right: -1em;
+}
+main section#content-blog div.blog-posts p,
+main section#content-contact .col-md-8 p{
+    font-size: 1.2em; 
+    margin-top: 1.0em;
+}
+
+main section#content-blog div.blog-details ul {
+    margin-left: -0.65em;
+}
+
+main section#content-blog div.blog-details ul li {
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 1em;
+    list-style-type:none;
+}
+
+main section#content-blog div.last-posts ul li{
+    margin: 1em 0 0 4em;
+    list-style-type:square;
+}
+
+/*AFFILIATES*/
+main section#resources .margin-top,
+main section#content-contact .margin-top,
+main section#legal .margin-top{
+    margin-top: 42%; 
+    color: #ff9100;
+}
+
+/*****KONTAKT*****/
+main section#content-contact{
+    height: 2000px;
+}
+
+main section#legal {
+    height: 1500px; 
+}
+
+button.btn.btn-default{
+    color: #00a9ff;
+}
+
+main section#content-contact aside p {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin: 2em 0 0 4em;
+}
+
+
+/*FOOTER */
+
+footer#main {
+    background: white;
+    font-family: "Teko", Verdana, Arial, sans-serif;  
+}
+
+footer#main ul#navFooter {
+    list-style-type: none;
+}
+
+footer#main ul#navFooter li{
+    display:inline-block;
+}
+footer#main ul#navFooter li img {
+    display: none; 
+
+}
+
+footer#main ul#navFooter li a{ 
+    color: #646464; 
+    font-size: 1.4em;
+    line-height:1.6em; 
+    margin: 0.3em 0.45em; 
+}
+
+
+footer#main ul#navFooter li.margin-top {
+    margin-top: 6.15em;
+}
+
+footer#main ul#navFooter li.margin-btm {
+    margin-bottom: 6.4em;
+}
+
+
+
+footer#main div img#footerLogo {
+    width: 70%;     
+    margin-top:6.4em; 
+    margin-left: 1.5em;
+}
+
+footer#main p { 
+    font-family: "Teko", Verdana, Arial, sans-serif;
+    margin-top: 3.9em; 
+    font-size: 1.6em;
+    color: #646464;
+    line-height: 1.2em;
+    text-align: right; 
+}
+
+footer#main .container-fluid {
+    background-color: #ff9100;
+    height: 1.8em;
+    color: white;
+    line-height: 1.8em;
+    font-size:1.8em;
+}
+
+footer#main .container-fluid span {
+        margin-right: 10%; 
+}
+
+
+/*MEDIA QUERRIES */
+/*INDEX*/
+
+@media (max-width: 1200px){
+    
+    section#hero {
+        background-image: url('../assets/img/hero_chicoona_software_klein.png') top center fixed no-repeat;
+        -moz-background-size: cover
+        -webkit-background-size: cover; 
+        background-size: cover;
+        height: 541px;
+        width: 100%; 
+    }
+    
+    main section#content-index div#first-triangel,
+    main section#content-index div#second-triangel,
+    main section#content-index div#third-triangel{ 
+        font-size: 0.95em;
+        width: 24%;
+    }
+    
+    main section#content-index div#first-triangel{
+        margin-left: 13.5%;
+    }
+    
+    main section#content-index div#second-triangel{
+        margin-left:1.3%;
+    }
+    
+    main section#content-index div#third-triangel{
+        margin-left:0.5%;
+    }
+    
+    main section#content-index h2 { 
+        margin-left: 0.35em; 
+        font-size: 1.5em;
+        margin-bottom: -0.5%; 
+    }
+    
+     main section#content-index a.btn img {
+        width: 80%; 
+     }
+    
+    main section#content-index a.btn.btn-apps {
+        margin-top: 3.65em; 
+    }
+    
+    main section#content-index a.btn.btn-websites {
+        margin-top: 1.10em; 
+    }
+    
+    main section#about .container {
+        width: 850px; 
+    }
+    
+    main section#about h1 {
+        font-size: 1.7em;
+        margin-top: 4em; 
+    }
+    
+    main section#about p {
+        font-size: 1em;
+    }
+    
+    main section#about a.btn.btn-about img {
+        width: 80%; 
+    }
+    
+     
+    footer#main div.col-sm-4 {
+        display: table;
+    }
+    
+    footer#main ul#navFooter {
+        margin-left: 4.5em;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    footer#main ul#navFooter li img{
+       display: none; 
+    }
+    
+    footer#main ul#navFooter li a{
+        font-size: 1.15em;
+    }
+   
+    
+    footer#main div img#footerLogo {
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 0em;
+        margin-left:3.5em; 
+    }
+
+    
+    
+    footer#main p {
+        display. table-cell;
+        vertical-align: middle;
+        font-size: 1.2em;
+        padding-top: 1em;
+        text-align:right; 
+    }
+    
+    footer#main .container-fluid {
+        height: 1.6em;
+        line-height: 1.8em;
+        font-size:1.6em;
+    }
+    
+     footer#main .container-fluid span {
+        margin-right: 5%; 
+    }
+    
+    /*SERVICES*/
+
+    main section#content-services  {
+        height: 2000px; 
+    }
+    
+    main section#content-services .margin-top
+   {
+        margin-top: 52%;
+    }
+    
+    
+    main h1 {
+        font-size: 1.9em;
+        font-weight: 400;
+    }
+    
+    main h2 {
+        font-size: 1.9em;
+    }
+
+    main p {
+        line-height: 1.4em;
+        font-size: 1.2em;
+        color: #4e4e4e;
+    }
+    
+    .panel{
+        margin-top: 1.15em;
+    }
+
+    .panel-body img {
+          width: 250px;
+    }
+    .panel-footer{
+        width: 250px;
+        height: 24em;
+    }
+
+    .panel-footer p {
+        font-size: 0.95em;
+        color: white;
+        line-height: 1.3em; 
+    }
+    
+    main section#portfolio {
+        height: 0.2em;
+    }
+    
+    /*Blog*/
+    
+    main section#content-blog .margin-top,
+    main section#resources .margin-top,
+    main section#content-contact .margin-top,
+    main section#legal .margin-top,{
+        margin-top: 55%;
+    }
+    
+    main section#content-blog h3,
+    main section#content-blog div.last-posts h3,
+    main section#content-contact h3{
+        font-size: 1.9em; 
+    }
+    
+    /*Kontakt*/
+    main section#content-contact aside p {
+        margin-left: 2.5em; 
+    }
+    
+    
+}
+
+@media (max-width: 991px){
+    nav.navbar-default .navbar-nav>li>a:link,
+    nav.navbar-default .navbar-nav>li>a:visited,
+    nav.navbar-default .navbar-nav>li>a:hover,
+    nav.navbar-default .navbar-nav>li>a:active
+    {
+        line-height: 30px; 
+        padding: 20px 15px 18px 18px;
+        font-size: 20px; 
+    }
+
+     nav ul.navbar-nav >li.lang>a:link, 
+     nav ul.navbar-nav >li.lang>a:visited, 
+     nav ul.navbar-nav >li.lang>a:hover, 
+     nav ul.navbar-nav >li.lang>a:active
+    {
+        margin-top: 0.15px; 
+        font-size: 19px; 
+        line-height: 30px; 
+    }
+
+    main section#content-index div#first-triangel,
+    main section#content-index div#second-triangel,
+    main section#content-index div#third-triangel{ 
+        font-size: 0.95em;
+        width: 30%;
+        margin-top: 40px; 
+    }
+    
+    main section#content-index div#first-triangel{
+        margin-left: 3%;
+
+    }
+    
+    main section#content-index div#second-triangel{
+        margin-left:2.3%;
+    }
+    
+    main section#content-index div#third-triangel{
+        margin-left:2.5%;
+    }
+   
+    
+    main section#content-index a.btn img {
+        width: 70%; 
+     }
+    
+    
+    main section#content-index a.btn {
+        margin-right: -1.5em;
+    }
+    main section#content-index a.btn.btn-apps {
+        margin-top: 3.67em;
+    }
+    
+    
+    main section#about .container {
+        width: 710px; 
+    }
+    
+    /*Services*/
+    main section#content-services {
+        height: 1800px; 
+    }
+    
+    
+    main section#content-services .margin-top,
+    main section#content-blog .margin-top{
+        margin-top: 58%;
+    }
+    
+    main h1 {
+        font-size: 1.8em;
+    }
+    
+    main h2 {
+        margin-top: -0.5em;
+        font-size: 1.8em;
+    }
+    
+
+    main p {
+        line-height: 1.275em;
+        font-size: 1.1em;
+    }
+    
+
+    .panel-body img {
+          width: 180px;
+    }
+    .panel-footer{
+        width: 180px;
+        height: 18.5em;
+    }
+
+    .panel-footer h3 {
+        font-size: 1.4em;
+        margin-bottom: -0.1em;
+        margin-top:-0.1em;
+    }
+    .panel-footer p {
+        font-size: 0.8em;
+        line-height: 1.2em; 
+    }
+    
+    /*Blog*/
+    main section#content-blog h3,
+    main section#content-blog div.last-posts h3,
+    main section#content-contact h3{
+        font-size: 1.8em;
+        line-height: 1.1em; 
+    }
+    
+    main section#content-blog div.blog-posts p {
+        font-size: 1.1em;
+        line-height: 1.275em;
+        margin-top: 1.0em;
+    }
+     
+    main section#content-blog div.last-posts h3{
+        margin-left:0em;
+    } 
+    
+    
+    /*Kontakt*/
+    main section#content-contact .col-md-4 h3{
+        margin-left: -1em;
+        margin-top: 5.8em; 
+    }
+    
+
+    footer#main ul#navFooter {
+        margin-left:4.5em;
+    }
+    
+    footer#main ul#navFooter li img{
+       display: none;
+    }
+    
+    footer#main ul#navFooter li a{
+        font-size: 1.15em;
+    }
+   
+    footer#main div img#footerLogo {
+        margin-top:6.8em;
+        margin-left:1.5em;
+    }
+    
+    footer#main p {
+
+        font-size: 1.2em;
+        padding-top: 1.3em; 
+        text-align:right; 
+    }
+
+}
+
+@media (max-width:768px) {
+
+    a.navbar-brand{
+        margin-bottom:-1.5em; 
+    }
+    #navbar {
+        height:6em;
+        background: white; 
+    }
+    
+    section#hero {
+         background-image: url('../assets/img/hero_chicoona_software_mini.png') top center fixed no-repeat;
+        -moz-background-size: cover
+        -webkit-background-size: cover; 
+        background-size: cover;
+        height: 316px;
+        width: 100%; 
+    }
+    
+    main section#content-index {
+        height: 47em; 
+    }
+    
+    main section#content-index .row {
+        display: table-cell; 
+    }
+    
+    main section#content-index div#first-triangel{
+        margin-top: 80px;
+    }
+    
+    main section#content-index div#first-triangel,
+    main section#content-index div#second-triangel,
+    main section#content-index div#third-triangel{
+        width: 60%; 
+        display: table-cell;
+        vertical-align: top;
+        margin-left: 20%;
+        height: 15.5em;
+    }
+    
+    main section#content-index a.btn.pull-right {
+        margin-top: -4em;
+    }
+    
+    main section#about .container {
+        width: 75%; 
+    }
+    
+    main section#about h1 {
+        margin-top: 2.5em;  
+    }
+
+    main section#about a.btn-about {
+        margin-bottom: 2.5em;       
+    }
+    
+    /*SERVICES*/
+    
+
+    main section#content-services {
+        height: 2800px; 
+    }
+    
+
+
+    main section#content-services .margin-top,
+    main section#content-blog .margin-top,
+    main section#resources .margin-top{
+        margin-top:510px;
+    }
+    main section#content-services .panel-col {
+        width: 69.2%;
+        margin-top:3em;
+    }
+    
+    #higher {
+        margin-top: -2em;
+    }
+    .panel{
+        margin-top:3em;
+    }
+    
+    
+    .panel-body img {
+          width: 335px;
+    }
+    .panel-footer{
+        width: 335px;
+        height: 16.5em;
+    }
+
+    .panel-footer h3 {
+        font-size: 1.5em;
+        margin-bottom: 0em;
+        margin-top:0;
+    }
+    .panel-footer p {
+        font-size: 1em;
+        line-height: 1.35em; 
+    }
+    
+    footer#main .container {
+        width: 75%;
+    }
+    
+    footer#main ul#navFooter li {
+        text-align:center;
+        margin-left: 12.5%; 
+        margin-top: 1em;
+    }
+    
+    /*BLOG and Kontakt*/
+    
+     main section#content-blog,
+    main content#resources,
+    main section#content-contact{
+        height: 2450px;
+    }
+    
+    main section#legal {
+        height: 2000px; 
+    }
+    
+    main section#content-blog .container
+    main section#content-contact .container,
+    main section#legal .container{
+        width:90%;
+        margin: 0 5%;
+    }
+     
+    main section#content-blog div.last-posts h3,
+    main section#content-contact h3,
+    main section#content-contact .col-md-4 h3{
+        margin-left:0em;
+        margin-right: 0em; 
+    } 
+    
+    main section#content-contact .margin-top,
+    main section#legal .margin-top{
+        margin-top: 510px; 
+    }
+    
+    footer#main div img#footerLogo {
+        margin-top:1em;
+        margin-left:12.5%;
+        width: 50%;
+    }
+    
+    footer#main p {
+
+        font-size: 1.2em;
+        margin-top: 6em;
+        text-align:left;
+        margin-left:3.5em;
+    }
+    
+    footer#main .container-fluid span {
+        margin: 0;
+    }  
+    
+}
+
+@media (max-width: 544px) {
+    
+    #navbar {
+        height: 10em;
+    }
+    
+    
+    nav.navbar-default .navbar-nav>li>a:link,
+    nav.navbar-default .navbar-nav>li>a:visited,
+    nav.navbar-default .navbar-nav>li>a:hover,
+    nav.navbar-default .navbar-nav>li>a:active
+    {
+        padding: 3px 3px; 
+    }
+
+     nav ul.navbar-nav >li.lang>a:link, 
+     nav ul.navbar-nav >li.lang>a:visited, 
+     nav ul.navbar-nav >li.lang>a:hover, 
+     nav ul.navbar-nav >li.lang>a:active
+    {
+        padding: 3px 3px;  
+    }
+    
+    
+    /*Index*/
+     main section#content-index div#first-triangel,
+     main section#content-index div#second-triangel,
+    main section#content-index div#third-triangel{
+        width: 80%; 
+        margin-left: 10%; 
+    }
+    
+    /*Services*/
+    body#follow {
+        background-image:none;
+    }
+     main section#content-services {
+        height:3000px; 
+    }
+    
+    main section#content-services .margin-top,
+    main section#content-blog .margin-top,
+    main section#resources .margin-top,
+    main section#content-contact .margin-top,
+    main section#legal .margin-top
+    {
+        margin-top: 4em;
+    }
+    
+    main section#content-services h2#center {
+        margin-left: 0%;
+    }
+    .panel-body img,
+    .panel-footer{
+        width:250px;
+    }
+    .panel-footer {
+        height: 100%;
+    }
+    .panel-footer p {
+        font-size: 0.9em;
+    }
+    
+    main section#content-services .panel-col {
+        margin-top. 2.5em;
+    }
+    
+    /*Blog*/
+    
+    main section#content-blog div.blog-posts p,
+    main section#content-blog div.last-posts ul li{
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+    
+    main section#content-blog div.last-posts ul li{
+        margin-top: 0.5em;
+    }
+    main section#content-blog {
+        height: 2100px;
+    }
+    
+    main section#content-contact,
+    main section#legal{
+        height: 1500px; 
+    }
+    
+    footer#main .container {
+        width: 80%;
+        margin-left: 5%; 
+    }
+    
+    footer#main p {
+        margin-left: 3em; 
+    }
+    
+    
+}
+
+
+
+
